@@ -1,6 +1,6 @@
 # 使用 vscode markdown 遇到的问题
 
-## 问题1
+## 0x1 问题1
 
 编辑区设置了字体为'Courier New'后，预览 code 部分的字体不变，看起来是 Consolas。  
 markdown.preview.fontFamily = 'Courier New'
