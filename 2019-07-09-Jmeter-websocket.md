@@ -16,4 +16,3 @@ windows的话，下载 Binaries zip 包
 JMeter WebSocket Sampler插件有2个：  
 1 JMeter WebSocket Sampler by Maciej Zaleski  
 2 JMeter WebSocket Samplers by Peter Doornbosch
-
