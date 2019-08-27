@@ -43,8 +43,19 @@ The error on web browser and events log is useless. Can't wait for .netcore 3 :P
 
 ## 命令行发布
 
-1 Debug
->dotnet publish -c Debug -r win10-x64
+```shell
+dotnet publish -c Release -r win-x64 -o dist/win-x64
+dotnet publish -c Release -r osx-x64 -o dist/osx-x64
+dotnet publish -c Release -r linux-x64 -o dist/linux-x64
+```
 
-2 Release
->dotnet publish -c Release -r win10-x64
+## WebApi 几点小技巧
+
+- 路由小写
+- 路由版本
+- swagger 丝袜哥
+- 允许跨域请求
+
+相关链接
+
+[或许是你应该了解的一些 ASP.NET Core Web API 使用小技巧](https://www.cnblogs.com/danvic712/p/11255423.html)
