@@ -19,6 +19,3 @@ webapi 中的控制类都是从 ControllerBase 派生出来的，不要从 Contr
     该特征也可灵活配置
 
 - 绑定源参数推理
-
-
-
