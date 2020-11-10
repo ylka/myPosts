@@ -23,7 +23,7 @@
 
 1.2 设置 IDEA 使用自己配置的 maven（三个地方）
 
-菜单找到 setting - Build,Excution,Deployment - Build Tools - Maven
+菜单找到 file - setting - Build,Excution,Deployment - Build Tools - Maven
 
 + Maven home directory，设置为 D:/Maven/apache-maven-3.5.3
 + User setting file，勾选上 Override，设置为 D:\Maven\apache-maven-3.5.3\conf\settings.xml
